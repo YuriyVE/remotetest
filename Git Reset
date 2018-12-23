@@ -1,0 +1,21 @@
+https://git-scm.com/docs/git-reset
+
+NAME
+
+git-reset - Reset current HEAD to the specified state
+SYNOPSIS
+
+git reset [-q] [<tree-ish>] [--] <paths>…​
+git reset (--patch | -p) [<tree-ish>] [--] [<paths>…​]
+git reset [--soft | --mixed [-N] | --hard | --merge | --keep] [-q] [<commit>]
+
+DESCRIPTION
+
+In the first and second form, copy entries from <tree-ish> to the index. 
+In the third form, set the current branch head (HEAD) to <commit>, 
+optionally modifying index and working tree to match. 
+The <tree-ish>/<commit> defaults to HEAD in all forms.
+
+
+
+
